@@ -84,12 +84,12 @@ _Example: **RAIP** indicates the parameter supports Register/Address/Immediate &
 | NOP    | 1000 0000 0000 0000 0000 0000 0000 0000 | No Operation|
 
 ## Memory Access
-| Opcode | Parameter 1  | Parameter 2  | Title            |
-|--------|--------------|--------------|------------------|
-| BYTE   | From: *RAIP* | To: *RAP*    | Move 8 bits      |             
-| DBYT   | From: *RAIP* | To: *RAP*    | Move 16 bits     |
-| QBYT   | From: *RAIPC*| To: *RAP*    | Move 32 bits     |
-| PUSH   | From: *RIPC* |              | Push on to stack |
-| POP    | To: *R*      |              | Pop from stack   |
-| PEEK   | To: *R*      |              | Peek top of stack|
+| Opcode | Parameter 1     | Parameter 2      | Title            |
+|--------|-----------------|------------------|------------------|
+| BYTE   | From: **RAIP**  | To: **RAP**      | Move 8 bits      |             
+| DBYT   | From: **RAIP**  | To: **RAP**      | Move 16 bits     |
+| QBYT   | From: **RAIPC** | To: **RAP**      | Move 32 bits     |
+| PUSH   | From: **RIPC**  |                  | Push on to stack |
+| POP    | To: **R**       |                  | Pop from stack   |
+| PEEK   | To: **R**       |                  | Peek top of stack|
 
